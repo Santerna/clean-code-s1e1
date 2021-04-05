@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -53,8 +53,8 @@ button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-h3,
-label[for="form__add-task"] {
+.form__title,
+.form__add-task-label {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -63,7 +63,7 @@ label[for="form__add-task"] {
     margin: 0;
     text-transform: uppercase;
 }
-input[type="text"] {
+.form__text-input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -75,19 +75,19 @@ input[type="text"] {
     font-family: Lato, sans-serif;
     color: #888;
 }
-input[type="text"]:focus {
+.form__text-input:focus {
     color: #333;
 }
 
 /* New Task */
-label[for="form__add-task"] {
+.form__add-task-label {
     display: block;
     margin: 0 0 20px;
 }
-input#form__add-task {
+#form__add-task {
     width: 318px;
 }
-p > button:hover {
+.form__add-button:hover {
     color: #0FC57C;
 }
 
@@ -97,50 +97,50 @@ li {
     padding: 20px 0;
     border-bottom: 1px solid #eee;
 }
-li > * {
+.form__elements > * {
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.form__checked {
     margin: 0 10px;
 }
-li > label {
+.form__elements > .form__check-label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+.form__elements   .form__text-input {
     width: 226px
 }
-li > button.form__delete-button:hover {
+.form__elements button.form__delete-button:hover {
     color: #CF2323;
 }
-button.form__delete-button img {
+.form__delete-button img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.form__delete-button img:hover {
+.form__delete-button img:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
-ul#form__completed-tasks label {
+.form__completed-task-label {
     text-decoration: line-through
     color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.form__elements .form__text-input {
     display:none
 }
 
-ul li.form__edit input[type=text] {
+.form__elements.form__edit .form__text-input {
     display:inline-block;
     width:224px
 }
 
-ul li.form__edit label {
+.form__elements.form__edit label {
     display:none;
 }

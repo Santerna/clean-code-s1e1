@@ -18,19 +18,25 @@ var completedTasksHolder=document.getElementById("form__completed-tasks");//comp
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
-
+    listItem.classList.add("form__elements");
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
+    checkBox.classList.add("form__checked");
     //label
     var label=document.createElement("label");//label
+    label.classList.add("form__task");
+    label.classList.add("form__check-label");
     //input (text)
     var editInput=document.createElement("input");//text
+    editInput.classList.add("form__text-input");
     //button.edit
     var editButton=document.createElement("button");//edit button
+    editButton.classList.add("form__edit-button");
 
     //button.delete
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
+    deleteButton.classList.add("form__delete-button");
 
     label.innerText=taskString;
     label.className='form__task';
