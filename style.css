@@ -112,7 +112,7 @@ li {
     width: 226px;
 }
 .form__elements   .form__text-input {
-    width: 226px
+    width: 226px;
 }
 .form__elements button.form__delete-button:hover {
     color: #CF2323;
@@ -128,18 +128,18 @@ li {
 
 /* Completed */
 .form__completed-task-label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 .form__elements .form__text-input {
-    display: none
+    display: none;
 }
 
 .form__elements.form__edit .form__text-input {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .form__elements.form__edit label {
