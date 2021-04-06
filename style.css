@@ -1,5 +1,5 @@
 /* Basic Style */
-.page {
+body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -107,7 +107,7 @@ li {
 .form__checked {
     margin: 0 10px;
 }
-.form__elements > .form__check-label {
+.form__elements .form__task {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -129,7 +129,7 @@ li {
 }
 
 /* Completed */
-.form__completed-task-label {
+.form__completed-task .form-task {
     text-decoration: line-through;
     color: #888;
 }
@@ -142,6 +142,7 @@ li {
 .form__elements.form__edit .form__text-input {
     display: inline-block;
     width: 224px;
+    box-sizing: border-box;
 }
 
 .form__elements.form__edit label {

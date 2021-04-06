@@ -21,14 +21,13 @@ var createNewTaskElement=function(taskString){
     listItem.classList.add("form__elements");
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
-    checkBox.classList.add("form__checked");
+    checkBox.className = "form__checked";
     //label
     var label=document.createElement("label");//label
-    label.classList.add("form__task");
-    label.classList.add("form__check-label");
+    label.className = "form__task";
     //input (text)
     var editInput=document.createElement("input");//text
-    editInput.classList.add("form__text-input");
+    editInput.className = "form__text-input";
     //button.edit
     var editButton=document.createElement("button");//edit button
     editButton.classList.add("form__edit-button");
@@ -39,7 +38,8 @@ var createNewTaskElement=function(taskString){
     deleteButton.classList.add("form__delete-button");
 
     label.innerText=taskString;
-    label.className='form__task';
+    label.className='form__elements';
+    label.classList.add("form__task");
 
     //Each elements, needs appending
     checkBox.type="checkbox";
