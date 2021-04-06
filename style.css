@@ -139,12 +139,12 @@ li {
     display: none;
 }
 
-.form__elements.form__edit .form__text-input {
+.form__elements.form__elements--edit .form__text-input {
     display: inline-block;
     width: 224px;
     box-sizing: border-box;
 }
 
-.form__elements.form__edit .form__task{
+.form__elements.form__elements--edit .form__task{
     display: none;
 }
