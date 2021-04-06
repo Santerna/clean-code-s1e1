@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="head">
-      <img src="./eisenhower-matrix.jpg">
+    <header class="head">
+      <img src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
       <a class="head__info-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="form">
+    </header>
+    <main class="form">
       <p id="form__add">
         <label class="form__add-task-label" for="form__add-task">Add Item</label>
         <input class="form__text-input" id="form__add-task" type="text"><button class="form__add-button">Add</button>
@@ -20,12 +20,12 @@
         <li class="form__elements">
           <input class="form__checked" type="checkbox">
           <label class="form__task">Pay Bills</label>
-          <input class="form__text-input" type="text"><button class="form__edit-button">Edit</button><button class="form__delete-button"><img src="./remove.svg"></button>
+          <input class="form__text-input" type="text"><button class="form__edit-button">Edit</button><button class="form__delete-button"><img class="img" src="./remove.svg" alt="delete button"></button>
         </li>
-        <li class="form__elements form__edit">
+        <li class="form__elements form__elements--edit">
           <input class="form__checked" type="checkbox">
           <label class="form__task">Go Shopping</label>
-          <input class="form__text-input" type="text" value="Go Shopping" class="form__task"><button class="form__edit-button">Save</button><button class="form__delete-button"><img src="./remove.svg"></button>
+          <input class="form__text-input" type="text" value="Go Shopping" class="form__task"><button class="form__edit-button">Save</button><button class="form__delete-button"><img class="img" src="./remove.svg" alt="delete button"></button>
         </li>
       </ul>
       <h3 class="form__title">Completed</h3>
@@ -35,10 +35,10 @@
           <label class="form__task">See the Doctor</label>
           <input class="form__text-input" type="text">
           <button class="form__edit-button">Edit</button>
-          <button class="form__delete-button"><img src="./remove.svg"></button>
+          <button class="form__delete-button"><img class="img" src="./remove.svg" alt="delete button"></button>
         </li>
       </ul>
-    </div>
-    <script type="text/javascript" src="app.js"></script>
+    </main>
+    <script src="app.js"></script>
   </body>
 </html>
