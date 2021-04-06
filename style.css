@@ -116,15 +116,15 @@ li {
 .form__elements .form__text-input {
     width: 226px;
 }
-.form__elements button.form__delete-button:hover {
+.form__elements .form__delete-button:hover {
     color: #cf2323;
 }
-.form__delete-button img {
+.form__delete-button .img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.form__delete-button img:hover {
+.form__delete-button .img:hover {
     transform: rotateZ(0);
 }
 
@@ -145,6 +145,6 @@ li {
     box-sizing: border-box;
 }
 
-.form__elements.form__edit label {
+.form__elements.form__edit .form__task{
     display: none;
 }
