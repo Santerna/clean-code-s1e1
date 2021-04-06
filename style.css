@@ -53,7 +53,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    color: #3a3A3a;
+    color: #3a3a3a;
 }
 /* Heading */
 .form__title,
@@ -72,8 +72,8 @@ button:hover {
     line-height: 18px;
     height: 21px;
     padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
+    border: 1px solid #ddd;
+    background: #fff;
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
@@ -91,7 +91,7 @@ button:hover {
     width: 318px;
 }
 .form__add-button:hover {
-    color: #0FC57C;
+    color: #0fc57c;
 }
 
 /* Task list */
@@ -117,7 +117,7 @@ li {
     width: 226px;
 }
 .form__elements button.form__delete-button:hover {
-    color: #CF2323;
+    color: #cf2323;
 }
 .form__delete-button img {
     height: 2em;
